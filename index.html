@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dr. Danilo | Implantes e Prótese Protocolo em Sales Oliveira</title>
+    <meta name="description"
+        content="Dentes fixos. Sorriso novo. Vida nova. Implantes, prótese protocolo, cirurgia ortognática, sisos e alinhadores em Sales Oliveira. 15 anos e mais de 3.000 pacientes.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Figtree:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+        <symbol id="i-tooth" viewBox="0 0 24 24">
+            <path
+                d="M7.5 3C5 3 3.5 5 3.5 7.5c0 2 .8 3.4 1.3 5.3.5 2 .6 5.2 1.5 7 .5 1 1.6 1.2 2.2.2.7-1.2.8-3.6 1.6-4.7.4-.5.9-.5 1.3 0 .8 1.1.9 3.5 1.6 4.7.6 1 1.7.8 2.2-.2.9-1.8 1-5 1.5-7 .5-1.9 1.3-3.3 1.3-5.3C20.5 5 19 3 16.5 3c-1.7 0-2.8.9-4.5.9S9.2 3 7.5 3Z"
+                fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+        </symbol>
+        <symbol id="i-wa" viewBox="0 0 24 24">
+            <path fill="currentColor"
+                d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.2 13.9c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.3.4-.4.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.1 1 2.1 1.3 2.4 1.4.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.8-.1 1.4Z" />
+        </symbol>
+        <symbol id="i-arrow" viewBox="0 0 24 24">
+            <path d="M5 12h14m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+                stroke-linejoin="round" />
+        </symbol>
+    </svg>
+
+    <!-- ===== SECTION 1: HERO ===== -->
+    <header class="hero" id="inicio">
+        <nav class="nav" aria-label="Principal">
+            <a href="#inicio" class="brand">Dr. Danilo</a>
+            <button class="nav-toggle" aria-expanded="false" aria-controls="menu"
+                aria-label="Abrir menu"><span></span><span></span></button>
+            <ul class="menu" id="menu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#servicos">Tratamentos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li class="menu-cta"><a href="#" class="btn btn-sm js-wa"
+                        data-msg="Olá, Dr. Danilo! Gostaria de agendar uma avaliação.">Agendar</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero-inner">
+            <div class="hero-copy">
+                <h1>Dentes fixos.<br>Sorriso novo.<br><em>Vida nova.</em></h1>
+                <p class="hero-text">Implantes e prótese protocolo com o Dr. Danilo, em Sales Oliveira. Uma avaliação
+                    para entender o seu caso e o caminho até o sorriso que você quer.</p>
+                <div class="hero-actions">
+                    <a href="#" class="btn btn-main js-wa"
+                        data-msg="Olá, Dr. Danilo! Gostaria de agendar uma avaliação."><svg class="ico">
+                            <use href="#i-wa" />
+                        </svg> Agendar avaliação</a>
+                    <a href="#servicos" class="btn btn-line">Ver tratamentos</a>
+                </div>
+            </div>
+
+            <figure class="hero-photo">
+                <div class="arch">
+                    <!-- Foto do Dr. Danilo em assets/dr-danilo.png -->
+                    <img src="assets/dr-danilo.png" alt="Dr. Danilo, cirurgião-dentista" width="560" height="700"
+                        onerror="this.remove()">
+                    <span class="photo-ph" aria-hidden="true"><svg>
+                            <use href="#i-tooth" />
+                        </svg>Foto do Dr. Danilo</span>
+                </div>
+            </figure>
+        </div>
+
+        <ul class="stats">
+            <li><b>15 anos</b><span>de experiência</span></li>
+            <li><b>+3.000</b><span>pacientes atendidos</span></li>
+            <li><b>Sales Oliveira</b><span>Atendimento presencial</span></li>
+        </ul>
+    </header>
+
+    <!-- ===== SECTION 2: TRATAMENTOS ===== -->
+    <main>
+        <section class="services" id="servicos">
+            <div class="wrap">
+                <div class="sec-head">
+                    <h2>Tratamentos para recuperar função e estética</h2>
+                    <p>Escolha o tratamento e fale direto com a clínica pelo WhatsApp.</p>
+                </div>
+                <div class="grid">
+                    <a href="#" class="card js-wa"
+                        data-msg="Olá, Dr. Danilo! Gostaria de agendar uma avaliação para implantes dentários."><svg
+                            class="card-ico">
+                            <use href="#i-tooth" />
+                        </svg>
+                        <h3>Implantes dentários</h3>
+                        <p>Reposição de dentes ausentes com raiz artificial, para devolver firmeza ao mastigar e ao
+                            sorrir.</p><span class="more">Agendar avaliação <svg>
+                                <use href="#i-arrow" />
+                            </svg></span>
+                    </a>
+                    <a href="#" class="card js-wa"
+                        data-msg="Olá, Dr. Danilo! Gostaria de saber sobre prótese protocolo."><svg class="card-ico">
+                            <use href="#i-tooth" />
+                        </svg>
+                        <h3>Prótese protocolo</h3>
+                        <p>Arcada completa fixa sobre implantes, para quem quer deixar a dentadura móvel para trás.</p>
+                        <span class="more">Agendar avaliação <svg>
+                                <use href="#i-arrow" />
+                            </svg></span>
+                    </a>
+                    <a href="#" class="card js-wa"
+                        data-msg="Olá, Dr. Danilo! Gostaria de saber sobre cirurgia ortognática."><svg class="card-ico">
+                            <use href="#i-tooth" />
+                        </svg>
+                        <h3>Cirurgia ortognática</h3>
+                        <p>Correção da posição da mandíbula e da maxila, melhorando mordida, função e harmonia do rosto.
+                        </p><span class="more">Agendar avaliação <svg>
+                                <use href="#i-arrow" />
+                            </svg></span>
+                    </a>
+                    <a href="#" class="card js-wa"
+                        data-msg="Olá, Dr. Danilo! Gostaria de agendar uma avaliação para remoção de siso."><svg
+                            class="card-ico">
+                            <use href="#i-tooth" />
+                        </svg>
+                        <h3>Cirurgia de siso</h3>
+                        <p>Remoção de sisos com planejamento, exames e orientação clara para o pós-operatório.</p><span
+                            class="more">Agendar avaliação <svg>
+                                <use href="#i-arrow" />
+                            </svg></span>
+                    </a>
+                    <a href="#" class="card js-wa"
+                        data-msg="Olá, Dr. Danilo! Gostaria de agendar uma avaliação para alinhadores dentários."><svg
+                            class="card-ico">
+                            <use href="#i-tooth" />
+                        </svg>
+                        <h3>Alinhadores dentários</h3>
+                        <p>Placas transparentes e removíveis para alinhar os dentes de forma discreta.</p><span
+                            class="more">Agendar avaliação <svg>
+                                <use href="#i-arrow" />
+                            </svg></span>
+                    </a>
+                    <a href="#" class="card js-wa"
+                        data-msg="Olá, Dr. Danilo! Gostaria de saber sobre modulação hormonal bioidêntica facial."><svg
+                            class="card-ico">
+                            <use href="#i-tooth" />
+                        </svg>
+                        <h3>Modulação hormonal facial</h3>
+                        <p>Abordagem bioidêntica voltada à saúde e ao aspecto da pele do rosto, após avaliação
+                            individual.</p><span class="more">Agendar avaliação <svg>
+                                <use href="#i-arrow" />
+                            </svg></span>
+                    </a>
+                </div>
+
+                <aside class="cta-band" id="contato">
+                    <div>
+                        <h3>Pronto para o primeiro passo?</h3>
+                        <p>Sales Oliveira · agende sua avaliação pelo WhatsApp.</p>
+                    </div>
+                    <a href="#" class="btn btn-main js-wa"
+                        data-msg="Olá, Dr. Danilo! Gostaria de agendar uma avaliação."><svg class="ico">
+                            <use href="#i-wa" />
+                        </svg> Agendar pelo WhatsApp</a>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer class="foot">
+        <p><strong>Dr. Danilo</strong> · Implantes e Prótese Protocolo · Sales Oliveira</p>
+        <p class="demo">Página de demonstração</p>
+    </footer>
+    <a href="#" class="wa-float js-wa" data-msg="Olá, Dr. Danilo! Gostaria de agendar uma avaliação."
+        aria-label="Falar no WhatsApp"><svg>
+            <use href="#i-wa" />
+        </svg></a>
+    <script src="script.js"></script>
+</body>
+
+</html>
